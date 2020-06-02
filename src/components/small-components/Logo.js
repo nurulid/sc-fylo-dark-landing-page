@@ -3,8 +3,8 @@ import logo from '../../img/logo.svg'
 import styled from 'styled-components'
 
 const LogoImg = styled.img ` 
-  width: 200px;
-  padding: 10px 20px;
+  width: 150px;
+  padding: 10px 0;
 `
 
 function Logo() {

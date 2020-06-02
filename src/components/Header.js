@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "./styled-components/Logo";
-import Navbar from "./styled-components/Navbar";
+import Logo from "./small-components/Logo";
+import Navbar from "./small-components/Navbar";
 import styled from "styled-components";
 
 const HeaderWrapper = styled.header`
@@ -25,7 +25,7 @@ const HeaderWrapper = styled.header`
     margin-right: auto;
   }
 
-  @media (max-width: 450px) {
+  @media (max-width: 520px) {
     justify-content: center;
     flex-direction: column;
   }

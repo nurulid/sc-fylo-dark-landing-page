@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const NavbarWrapper = styled.nav ` 
-  @media screen and (max-width: 450px){
+  @media screen and (max-width: 520px){
     margin-top: 20px;
   }
 `
